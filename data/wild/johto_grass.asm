@@ -1069,114 +1069,113 @@ JohtoGrassWildMons:
 	def_grass_wildmons SILVER_CAVE_ROOM_1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 43, GRAVELER
-	db 44, URSARING
-	db 42, ONIX
-	db 45, MAGMAR
-	db 45, GOLBAT
+	db 63, GOLEM
+	db 64, URSARING
+	db 62, STEELIX
+	db 65, MAGMAR
+	db 65, FLAREON
+	db 62, MAGCARGO
 	db 20, LARVITAR
-	db 15, LARVITAR
 	; day
-	db 43, GRAVELER
-	db 44, URSARING
-	db 42, ONIX
-	db 45, MAGMAR
-	db 45, GOLBAT
+	db 63, GOLEM
+	db 64, URSARING
+	db 62, STEELIX
+	db 65, MAGMAR
+	db 65, FLAREON
+	db 62, MAGCARGO
 	db 20, LARVITAR
-	db 15, LARVITAR
 	; nite
-	db 43, GRAVELER
-	db 44, GOLBAT
-	db 42, ONIX
-	db 42, GOLBAT
-	db 45, GOLDUCK
-	db 46, GOLBAT
-	db 46, GOLBAT
+	db 63, GOLEM
+	db 64, CROBAT
+	db 62, STEELIX
+	db 62, MAGCARGO
+	db 65, GOLDUCK
+	db 66, HOUNDOOM
+	db 66, GOLBAT
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_2
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
-	db 48, MACHOKE
-	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
-	db 15, LARVITAR
+	db 68, GOLBAT
+	db 68, MACHAMP
+	db 67, URSARING
+	db 66, VAPOREON
+	db 68, PARASECT
+	db 70, KANGASKHAN
 	db 20, LARVITAR
 	; day
-	db 48, GOLBAT
-	db 48, MACHOKE
-	db 47, URSARING
-	db 46, PARASECT
-	db 48, PARASECT
-	db 15, LARVITAR
+	db 68, GOLBAT
+	db 68, MACHAMP
+	db 67, URSARING
+	db 66, PARASECT
+	db 68, VAPOREON
+	db 70, KANGASKHAN
 	db 20, LARVITAR
 	; nite
-	db 48, GOLBAT
-	db 48, GOLDUCK
-	db 46, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 45, MISDREAVUS
-	db 45, MISDREAVUS
+	db 68, CROBAT
+	db 68, GOLDUCK
+	db 66, 
+	db 66, PARASECT
+	db 68, ALAKAZAM
+	db 65, GENGAR
+	db 65, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ROOM_3
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 50, URSARING
+	db 71, CROBAT
+	db 68, STEELIX
+	db 68, GOLEM
+	db 70, URSARING
+	db 60, JOLTEON
 	db 20, LARVITAR
-	db 15, LARVITAR
-	db 20, PUPITAR
+	db 30, PUPITAR
 	; day
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 50, URSARING
+	db 61, CROBAT
+	db 68, STEELIX
+	db 68, GOLEM
+	db 60, URSARING
+	db 60, JOLTEON
 	db 20, LARVITAR
-	db 15, LARVITAR
-	db 20, PUPITAR
+	db 30, PUPITAR
 	; nite
-	db 51, GOLBAT
-	db 48, ONIX
-	db 48, GRAVELER
-	db 49, GOLBAT
-	db 45, GOLDUCK
-	db 53, GOLBAT
-	db 53, GOLBAT
+	db 71, SNORLAX
+	db 68, STEELIX
+	db 68, GOLEM
+	db 69, MUK
+	db 65, WEEZING
+	db 73, GENGAR
+	db 73, CROBAT
 	end_grass_wildmons
 
 	def_grass_wildmons SILVER_CAVE_ITEM_ROOMS
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 68, AERODACTYL
+	db 66, ESPEON
+	db 70, PRIMEAPE
+	db 66, NIDOQUEEN
+	db 68, NIDOKING
+	db 70, MEGANIUM
+	db 72, PARASECT
 	; day
-	db 48, GOLBAT
-	db 46, GOLBAT
-	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
+	db 68, AERODACTYL
+	db 66, PRIMEAPE
+	db 70, SUDOWOODO
+	db 66, NIDOQUEEN
+	db 68, NIDOKING
+	db 70, TYPHLOSION
+	db 72, PARASECT
 	; nite
-	db 45, MISDREAVUS
-	db 48, GOLBAT
-	db 50, GOLBAT
-	db 46, PARASECT
-	db 48, PARASECT
-	db 50, PARASECT
-	db 52, PARASECT
-	end_grass_wildmons
+	db 65, MISDREAVUS
+	db 68, AERODACTYL
+	db 70, FERALIGATR
+	db 66, PARASECT
+	db 68, UMBREON
+	db 70, GENGAR
+	db 72, ALAKAZAM
 
 	def_grass_wildmons DARK_CAVE_VIOLET_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -1685,29 +1684,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 41, TANGELA
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 61, TANGELA
+	db 62, SCIZOR
+	db 62, ARBOK
+	db 64, RAPIDASH
+	db 61, HOUNDOOM
+	db 63, SKARMORY
+	db 63, DODRIO
 	; day
-	db 41, TANGELA
-	db 42, PONYTA
-	db 42, ARBOK
-	db 44, RAPIDASH
-	db 41, DODUO
-	db 43, DODRIO
-	db 43, DODRIO
+	db 61, TANGELA
+	db 62, ELECTABUZZ
+	db 62, ARBOK
+	db 64, RAPIDASH
+	db 61, MAGMAR
+	db 63, MACHAMP
+	db 63, DODRIO
 	; nite
-	db 41, TANGELA
-	db 42, POLIWHIRL
-	db 42, GOLBAT
-	db 44, POLIWHIRL
-	db 40, GOLBAT
-	db 44, GOLBAT
-	db 44, GOLBAT
+	db 61, TANGELA
+	db 62, POLITOED
+	db 62, MISDREAVUS
+	db 64, AZUMARILL
+	db 60, GENGAR
+	db 64, VILEPLUME
+	db 64, GOLBAT
 	end_grass_wildmons
 
 	db -1 ; end

@@ -95,9 +95,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons SILVER_CAVE_ROOM_2
 	db 2 percent ; encounter rate
-	db 35, SEAKING
-	db 35, GOLDUCK
-	db 35, GOLDEEN
+	db 65, VAPOREON
+	db 65, GOLDUCK
+	db 65, KINGDRA
 	end_water_wildmons
 
 	def_water_wildmons DARK_CAVE_VIOLET_ENTRANCE
@@ -263,9 +263,9 @@ JohtoWaterWildMons:
 
 	def_water_wildmons SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate
-	db 35, POLIWHIRL
-	db 40, POLIWHIRL
-	db 35, POLIWAG
+	db 65, POLIWRATH
+	db 60, AZUMARILL
+	db 65, POLITOED
 	end_water_wildmons
 
 	db -1 ; end

@@ -1806,33 +1806,33 @@ CoinVendor_IntroScript:
 	loadmenu .MenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .Buy50
-	ifequal 2, .Buy500
+	ifequal 1, .Buy100
+	ifequal 2, .Buy1000
 	sjump .Cancel
 
-.Buy50:
-	checkcoins MAX_COINS - 50
+.Buy100:
+	checkcoins MAX_COINS - 100
 	ifequal HAVE_MORE, .CoinCaseFull
 	checkmoney YOUR_MONEY, 1000
 	ifequal HAVE_LESS, .NotEnoughMoney
-	givecoins 50
+	givecoins 100
 	takemoney YOUR_MONEY, 1000
 	waitsfx
 	playsound SFX_TRANSACTION
-	farwritetext CoinVendor_Buy50CoinsText
+	farwritetext CoinVendor_Buy100CoinsText
 	waitbutton
 	sjump .loop
 
-.Buy500:
-	checkcoins MAX_COINS - 500
+.Buy1000:
+	checkcoins MAX_COINS - 1000
 	ifequal HAVE_MORE, .CoinCaseFull
 	checkmoney YOUR_MONEY, 10000
 	ifequal HAVE_LESS, .NotEnoughMoney
-	givecoins 500
+	givecoins 1000
 	takemoney YOUR_MONEY, 10000
 	waitsfx
 	playsound SFX_TRANSACTION
-	farwritetext CoinVendor_Buy500CoinsText
+	farwritetext CoinVendor_Buy1000CoinsText
 	waitbutton
 	sjump .loop
 
@@ -1863,8 +1863,8 @@ CoinVendor_IntroScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db " 50 :  ¥1000@"
-	db "500 : ¥10000@"
+	db " 100 : ¥1000@"
+	db "1000 : ¥10000@"
 	db "CANCEL@"
 
 HappinessCheckScript:

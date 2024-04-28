@@ -770,19 +770,19 @@ NamePlayer:
 	call RotateThreePalettesLeft
 
 	ld hl, wPlayerName
-	ld de, .Chris
+	ld de, .Gold
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .Male
-	ld de, .Kris
+	ld de, .Crystal
 .Male:
 	call InitName
 	ret
 
-.Chris:
-	db "CHRIS@@@@@@"
-.Kris:
-	db "KRIS@@@@@@@"
+.Gold:
+	db "GOLD@@@@@@@"
+.Crystal:
+	db "CRYSTAL@@@@"
 
 GSShowPlayerNamingChoices: ; unreferenced
 	call LoadMenuHeader

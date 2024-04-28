@@ -10,8 +10,8 @@ ChrisNameMenuHeader:
 	db 5 ; items
 	db "NEW NAME@"
 MalePlayerNameArray:
+	db "GOLD@"
 	db "CHRIS@"
-	db "MAT@"
 	db "ALLAN@"
 	db "JON@"
 	db 2 ; title indent
@@ -29,8 +29,8 @@ KrisNameMenuHeader:
 	db 5 ; items
 	db "NEW NAME@"
 FemalePlayerNameArray:
+	db "CRYSTAL@"
 	db "KRIS@"
-	db "AMANDA@"
 	db "JUANA@"
 	db "JODI@"
 	db 2 ; title indent

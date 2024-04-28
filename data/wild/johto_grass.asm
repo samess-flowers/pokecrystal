@@ -1115,7 +1115,7 @@ JohtoGrassWildMons:
 	; nite
 	db 68, CROBAT
 	db 68, GOLDUCK
-	db 66, 
+	db 66, VAPOREON
 	db 66, PARASECT
 	db 68, ALAKAZAM
 	db 65, GENGAR

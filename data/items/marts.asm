@@ -135,6 +135,9 @@ MartGoldenrod5F:
 	db TM_THUNDERPUNCH
 	db TM_FIRE_PUNCH
 	db TM_ICE_PUNCH
+	db TM_HEADBUTT
+	db TM_ROCK_SMASH
+	db TM_FALSE_SWIPE
 	db -1 ; end
 
 MartOlivine:

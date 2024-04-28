@@ -32,13 +32,12 @@ GoldenrodCityFlypointAndFloriaCallback:
 	endcallback
 
 GoldenrodCityMoveTutorCallback:
-	checkevent EVENT_BEAT_ELITE_FOUR
-	iffalse .MoveTutorDone
 	checkitem COIN_CASE
 	iffalse .MoveTutorDisappear
 	readvar VAR_WEEKDAY
 	ifequal WEDNESDAY, .MoveTutorAppear
 	ifequal SATURDAY, .MoveTutorAppear
+	ifequal SUNDAY, .MoveTutorAppear
 .MoveTutorDisappear:
 	disappear GOLDENRODCITY_MOVETUTOR
 	endcallback
@@ -94,7 +93,7 @@ MoveTutorScript:
 
 .MoveMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 0, 2, 15, TEXTBOX_Y - 1
+	menu_coords 0, 2, 19, SCREEN_HEIGHT - 1
 	dw .MenuData
 	db 1 ; default option
 

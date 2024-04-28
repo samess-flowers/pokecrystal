@@ -166,6 +166,9 @@ DEF NUM_HOF_TEAMS EQU 30
 	const ATK_GT_DEF
 	const ATK_LT_DEF
 	const ATK_EQ_DEF
+	const DEF_GT_SPDEF
+	const DEF_LT_SPDEF
+	const DEF_EQ_SPDEF
 
 ; wild data
 

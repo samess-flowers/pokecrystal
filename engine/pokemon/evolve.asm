@@ -66,7 +66,7 @@ EvolveAfterBattle_MasterLoop:
 	ld b, a
 
 	cp EVOLVE_TRADE
-	jr z, .trade
+	jp z, .trade
 
 	ld a, [wLinkMode]
 	and a
@@ -105,9 +105,31 @@ EvolveAfterBattle_MasterLoop:
 	ld a, ATK_LT_DEF
 	jr c, .got_tyrogue_evo
 	ld a, ATK_GT_DEF
+	jr c, .got_tyrogue_evo
+
+	ld de, wTempMonDefense
+	ld hl, wTempMonSpclDef
+	ld c, 2
+	call CompareBytes
+	ld a, DEF_EQ_SPDEF
+	jr z, .got_slowpoke_evo
+	ld a, DEF_LT_SPDEF
+	jr c, .got_slowpoke_evo
+	ld a, DEF_GT_SPDEF
+	jr c, .got_slowpoke_evo
 .got_tyrogue_evo
 	pop hl
 
+	inc hl
+	cp [hl]
+	jp nz, .dont_evolve_2
+
+	inc hl
+	jp .proceed
+
+.got_slowpoke_evo
+	pop hl
+	
 	inc hl
 	cp [hl]
 	jp nz, .dont_evolve_2

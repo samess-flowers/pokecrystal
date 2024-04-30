@@ -210,10 +210,13 @@ ItemEffects:
 ; NoEffect would be appropriate, with the table then being NUM_ITEMS long.
 
 PokeBallEffect:
-; BUG: The Dude's catching tutorial may crash if his Poké Ball can't be used (see docs/bugs_and_glitches.md)
 	ld a, [wBattleMode]
 	dec a
 	jp nz, UseBallInTrainerBattle
+
+	ld a, [wBattleType]
+	cp BATTLETYPE_TUTORIAL
+	jr z, .room_in_party
 
 	ld a, [wPartyCount]
 	cp PARTY_LENGTH
@@ -336,7 +339,6 @@ PokeBallEffect:
 	jr nz, .statuscheck
 	ld a, 1
 .statuscheck
-; BUG: BRN/PSN/PAR do not affect catch rate (see docs/bugs_and_glitches.md)
 	ld b, a
 	ld a, [wEnemyMonStatus]
 	and 1 << FRZ | SLP_MASK
@@ -767,7 +769,6 @@ ParkBallMultiplier:
 	ret
 
 HeavyBall_GetDexEntryBank:
-; BUG: Heavy Ball uses wrong weight value for three Pokémon (see docs/bugs_and_glitches.md)
 	push hl
 	push de
 	ld a, [wEnemyMonSpecies]
@@ -932,7 +933,6 @@ MoonBallMultiplier:
 	inc hl
 	inc hl
 
-; BUG: Moon Ball does not boost catch rate (see docs/bugs_and_glitches.md)
 	push bc
 	ld a, BANK("Evolutions and Attacks")
 	call GetFarByte
@@ -988,7 +988,6 @@ LoveBallMultiplier:
 	inc d   ; female
 .got_wild_gender
 
-; BUG: Love Ball boosts catch rate for the wrong gender (see docs/bugs_and_glitches.md)
 	ld a, d
 	pop de
 	cp d
@@ -1019,7 +1018,6 @@ FastBallMultiplier:
 	ld d, 3
 
 .loop
-; BUG: Fast Ball only boosts catch rate for three Pokémon (see docs/bugs_and_glitches.md)
 	ld a, BANK(FleeMons)
 	call GetFarByte
 

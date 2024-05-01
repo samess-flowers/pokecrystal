@@ -339,14 +339,16 @@ ErikaGroup:
 
 YoungsterGroup:
 	; YOUNGSTER (1)
+	; ROUTE 30
 	db "JOEY@", TRAINERTYPE_NORMAL
 	db  4, RATTATA
 	db -1 ; end
 
 	; YOUNGSTER (2)
+	; ROUTE 30
 	db "MIKEY@", TRAINERTYPE_NORMAL
-	db  2, PIDGEY
-	db  4, RATTATA
+	db  3, PIDGEY
+	db  4, SENTRET
 	db -1 ; end
 
 	; YOUNGSTER (3)
@@ -1499,9 +1501,9 @@ SabrinaGroup:
 
 BugCatcherGroup:
 	; BUG_CATCHER (1)
+	; ROUTE 30
 	db "DON@", TRAINERTYPE_NORMAL
-	db  3, CATERPIE
-	db  3, CATERPIE
+	db  5, YANMA
 	db -1 ; end
 
 	; BUG_CATCHER (2)
@@ -1518,11 +1520,12 @@ BugCatcherGroup:
 	db -1 ; end
 
 	; BUG_CATCHER (4)
+	; ROUTE 31
 	db "WADE@", TRAINERTYPE_NORMAL
-	db  2, CATERPIE
-	db  2, CATERPIE
-	db  3, WEEDLE
-	db  2, CATERPIE
+	db  5, CATERPIE
+	db  5, WEEDLE
+	db  6, SPINARAK
+	db  6, LEDYBA
 	db -1 ; end
 
 	; BUG_CATCHER (5)

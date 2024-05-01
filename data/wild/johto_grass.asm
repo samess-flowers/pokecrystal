@@ -401,25 +401,25 @@ JohtoGrassWildMons:
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 10, UNOWN
+	db 10, UNOWN
+	db 15, UNOWN
 	; day
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 10, UNOWN
+	db 10, UNOWN
+	db 15, UNOWN
 	; nite
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
 	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
-	db 5, UNOWN
+	db 10, UNOWN
+	db 10, UNOWN
+	db 15, UNOWN
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_1F

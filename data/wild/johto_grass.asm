@@ -344,7 +344,7 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
 	db 14, LEDYBA
-	db 13, PIDGEY
+	db 13, PICHU
 	db 10, CATERPIE
 	db 10, WEEDLE
 	db 10, WEEDLE
@@ -358,7 +358,7 @@ JohtoGrassWildMons:
 	db 10, WEEDLE
 	; nite
 	db 12, PSYDUCK
-	db 13, HOOTHOOT
+	db 13, ODDISH
 	db 14, SPINARAK
 	db 15, HOOTHOOT
 	db 10, VENONAT

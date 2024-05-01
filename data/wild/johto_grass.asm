@@ -1321,29 +1321,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_32
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 4, EKANS
-	db 5, RATTATA
-	db 7, BELLSPROUT
+	db 4, BELLSPROUT
+	db 5, EKANS
+	db 7, MAREEP
 	db 6, HOPPIP
-	db 7, PIDGEY
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, RATTATA
+	db 7, WOOPER
+	db 7, ZUBAT
 	; day
-	db 4, EKANS
-	db 5, RATTATA
-	db 7, BELLSPROUT
-	db 6, HOPPIP
-	db 7, PIDGEY
+	db 4, BELLSPROUT
+	db 5, EKANS
+	db 7, MAREEP
+	db 6, RATTATA
+	db 7, HOPPIP
 	db 7, HOPPIP
 	db 7, HOPPIP
 	; nite
 	db 4, WOOPER
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, ZUBAT
-	db 7, HOOTHOOT
-	db 7, GASTLY
-	db 7, GASTLY
+	db 6, MAREEP
+	db 7, ZUBAT
+	db 7, HOUNDOUR
+	db 7, HOUNDOUR
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_33
@@ -1573,27 +1573,27 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 15, FLAAFFY
+	db 16, GIRAFARIG
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, RATICATE
 	db 17, FURRET
 	db 17, FURRET
 	; day
-	db 15, SENTRET
-	db 16, PIDGEOTTO
+	db 15, FLAAFFY
+	db 16, GIRAFARIG
 	db 16, FARFETCH_D
 	db 15, FURRET
 	db 17, RATICATE
 	db 17, FURRET
 	db 17, FURRET
 	; nite
-	db 15, VENONAT
-	db 16, NOCTOWL
+	db 15, FLAAFFY
+	db 16, GIRAFARIG
 	db 16, RATICATE
 	db 17, VENONAT
-	db 17, RATICATE
+	db 17, MAREEP
 	db 17, VENOMOTH
 	db 17, VENOMOTH
 	end_grass_wildmons

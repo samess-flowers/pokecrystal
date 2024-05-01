@@ -317,24 +317,24 @@ JohtoGrassWildMons:
 	db 14, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 12, MAGMAR
+	db 16, MAGMAR
 	db 16, WEEZING
 	; day
 	db 14, RATTATA
 	db 14, KOFFING
 	db 16, KOFFING
+	db 12, MAGMAR
+	db 16, ZUBAT
 	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
 	db 16, WEEZING
 	; nite
 	db 14, RATTATA
 	db 14, KOFFING
 	db 16, KOFFING
 	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 12, MAGMAR
+	db 16, MAGMAR
 	db 16, WEEZING
 	end_grass_wildmons
 

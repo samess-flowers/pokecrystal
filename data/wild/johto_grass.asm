@@ -1462,25 +1462,25 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 13, LEDYBA
-	db 14, GROWLITHE
-	db 15, PIDGEY
 	db 16, GROWLITHE
+	db 15, PIDGEY
+	db 14, STANTLER
 	db 15, PIDGEOTTO
 	db 15, LEDIAN
 	db 15, LEDIAN
 	; day
 	db 13, PIDGEY
 	db 14, GROWLITHE
-	db 15, PIDGEY
-	db 16, GROWLITHE
-	db 15, PIDGEOTTO
-	db 15, PIDGEY
-	db 15, PIDGEY
+	db 15, VULPIX
+	db 16, VULPIX
+	db 15, BUTTERFREE
+	db 15, BEEDRILL
+	db 15, BEEDRILL
 	; nite
 	db 13, SPINARAK
-	db 14, STANTLER
+	db 14, VULPIX
 	db 15, HOOTHOOT
-	db 16, STANTLER
+	db 16, HOUNDOUR
 	db 15, NOCTOWL
 	db 15, ARIADOS
 	db 15, ARIADOS

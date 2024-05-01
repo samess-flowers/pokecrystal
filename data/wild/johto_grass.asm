@@ -1407,27 +1407,27 @@ JohtoGrassWildMons:
 	; morn
 	db 12, SNUBBULL
 	db 14, PIDGEY
-	db 13, GROWLITHE
+	db 13, MARILL
 	db 10, ABRA
 	db 12, JIGGLYPUFF
-	db 10, DITTO
 	db 12, YANMA
+	db 10, DITTO
 	; day
 	db 12, SNUBBULL
 	db 14, PIDGEY
-	db 13, GROWLITHE
+	db 13, MARILL
 	db 10, ABRA
 	db 12, JIGGLYPUFF
-	db 10, DITTO
 	db 12, YANMA
+	db 10, DITTO
 	; nite
 	db 12, DROWZEE
 	db 14, HOOTHOOT
 	db 13, PSYDUCK
 	db 10, ABRA
 	db 12, JIGGLYPUFF
-	db 10, DITTO
 	db 12, YANMA
+	db 10, DITTO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_36

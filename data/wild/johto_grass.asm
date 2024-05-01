@@ -1298,8 +1298,8 @@ JohtoGrassWildMons:
 	db 5, BELLSPROUT
 	db 5, PIDGEY
 	db 4, WEEDLE
-	db 5, HOPPIP
-	db 5, HOPPIP
+	db 5, MAREEP
+	db 5, MAREEP
 	; day
 	db 4, PIDGEY
 	db 4, CATERPIE

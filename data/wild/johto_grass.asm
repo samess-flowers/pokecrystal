@@ -1379,27 +1379,27 @@ JohtoGrassWildMons:
 	; morn
 	db 10, SNUBBULL
 	db 11, RATTATA
-	db 12, PIDGEY
+	db 12, MARILL
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, EEVEE
 	; day
 	db 10, SNUBBULL
 	db 11, RATTATA
-	db 12, PIDGEY
+	db 12, MARILL
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, EEVEE
 	; nite
 	db 12, DROWZEE
 	db 11, RATTATA
-	db 12, HOOTHOOT
+	db 12, MARILL
 	db 10, ABRA
 	db 12, JIGGLYPUFF
 	db 10, DITTO
-	db 10, DITTO
+	db 10, EEVEE
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_35

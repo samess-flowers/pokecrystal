@@ -82,8 +82,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_3F
@@ -110,8 +110,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_4F
@@ -138,8 +138,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_5F
@@ -166,8 +166,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_6F
@@ -194,8 +194,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_7F
@@ -222,8 +222,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_8F
@@ -250,8 +250,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons TIN_TOWER_9F
@@ -278,8 +278,8 @@ JohtoGrassWildMons:
 	db 22, GASTLY
 	db 22, RATTATA
 	db 23, RATTATA
-	db 24, RATTATA
-	db 24, RATTATA
+	db 24, MISDREAVUS
+	db 24, MISDREAVUS
 	end_grass_wildmons
 
 	def_grass_wildmons BURNED_TOWER_1F

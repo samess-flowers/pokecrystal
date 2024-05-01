@@ -1492,7 +1492,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FARFETCH_D
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
@@ -1500,14 +1500,14 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FARFETCH_D
 	db 13, TAUROS
 	db 13, MILTANK
 	db 13, MILTANK
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, MURKROW
 	db 16, NOCTOWL
 	db 16, MEOWTH
 	db 16, MEOWTH
@@ -1520,7 +1520,7 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FARFETCH_D
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
@@ -1528,14 +1528,14 @@ JohtoGrassWildMons:
 	db 16, RATTATA
 	db 16, RATICATE
 	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
+	db 16, FARFETCH_D
 	db 15, MILTANK
 	db 15, TAUROS
 	db 15, TAUROS
 	; nite
 	db 16, MEOWTH
 	db 16, RATICATE
-	db 16, MAGNEMITE
+	db 16, MURKROW
 	db 16, NOCTOWL
 	db 18, MEOWTH
 	db 18, MEOWTH

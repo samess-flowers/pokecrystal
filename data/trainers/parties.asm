@@ -1503,7 +1503,7 @@ BugCatcherGroup:
 	; BUG_CATCHER (1)
 	; ROUTE 30
 	db "DON@", TRAINERTYPE_NORMAL
-	db  5, YANMA
+	db  5, PARAS
 	db -1 ; end
 
 	; BUG_CATCHER (2)

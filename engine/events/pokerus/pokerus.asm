@@ -143,6 +143,8 @@ ConvertBerriesToBerryJuice:
 	ld a, [hl]
 	cp BERRY
 	jr z, .convertToJuice
+	cp BERRY_JUICE
+	jr z, .convertToCandy
 
 .loopMon
 	pop hl
@@ -155,6 +157,13 @@ ConvertBerriesToBerryJuice:
 
 .convertToJuice
 	ld a, BERRY_JUICE
+	ld [hl], a
+	pop hl
+	pop af
+	ret
+
+.convertToCandy
+	ld a, RARE_CANDY
 	ld [hl], a
 	pop hl
 	pop af

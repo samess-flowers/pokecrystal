@@ -5,7 +5,16 @@
 OlivineGym_MapScripts:
 	def_scene_scripts
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetOlivineGymTrainersCallback
+
+ResetOlivineGymTrainersCallback:
+	checkevent EVENT_BEAT_JASMINE
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	; need to put some trainers in this gym
+	endcallback
 
 OlivineGymJasmineScript:
 	faceplayer

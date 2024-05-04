@@ -8,7 +8,18 @@
 VermilionGym_MapScripts:
 	def_scene_scripts
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetVermillionGymTrainersCallback
+
+ResetVermillionGymTrainersCallback:
+	checkevent EVENT_BEAT_LTSURGE
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	clearevent EVENT_BEAT_GENTLEMAN_GREGORY
+	clearevent EVENT_BEAT_GUITARIST_VINCENT
+	clearevent EVENT_BEAT_JUGGLER_HORTON
+	endcallback
 
 VermilionGymSurgeScript:
 	faceplayer

@@ -11,7 +11,18 @@ CeruleanGym_MapScripts:
 	scene_script CeruleanGymNoopScene,         SCENE_CERULEANGYM_NOOP
 	scene_script CeruleanGymGruntRunsOutScene, SCENE_CERULEANGYM_GRUNT_RUNS_OUT
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetCeruleanGymTrainersCallback
+
+ResetCeruleanGymTrainersCallback:
+	checkevent EVENT_BEAT_MISTY
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	clearevent EVENT_BEAT_SWIMMERF_DIANA
+	clearevent EVENT_BEAT_SWIMMERF_BRIANA
+	clearevent EVENT_BEAT_SWIMMERM_PARKER
+	endcallback
 
 CeruleanGymNoopScene:
 	end

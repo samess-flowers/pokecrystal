@@ -9,7 +9,19 @@
 FuchsiaGym_MapScripts:
 	def_scene_scripts
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetFuschiaGymTrainersCallback
+
+ResetFuschiaGymTrainersCallback:
+	checkevent EVENT_BEAT_JANINE
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	clearevent EVENT_BEAT_LASS_ALICE
+	clearevent EVENT_BEAT_LASS_LINDA
+	clearevent EVENT_BEAT_PICNICKER_CINDY
+	clearevent EVENT_BEAT_CAMPER_BARRY
+	endcallback
 
 FuchsiaGymJanineScript:
 	checkflag ENGINE_SOULBADGE

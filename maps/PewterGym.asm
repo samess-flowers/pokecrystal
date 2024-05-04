@@ -6,7 +6,16 @@
 PewterGym_MapScripts:
 	def_scene_scripts
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetPewterGymTrainersCallback
+
+ResetPewterGymTrainersCallback:
+	checkevent EVENT_BEAT_BROCK
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	clearevent EVENT_BEAT_CAMPER_JERRY
+	endcallback
 
 PewterGymBrockScript:
 	faceplayer

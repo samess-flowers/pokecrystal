@@ -6,7 +6,16 @@ SeafoamGym_MapScripts:
 	def_scene_scripts
 	scene_script SeafoamGymNoopScene ; unusable
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetSeafoamGymTrainersCallback
+
+ResetSeafoamGymTrainersCallback:
+	checkevent EVENT_BEAT_BLAINE
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	; Need to add some trainers, maybe
+	endcallback
 
 SeafoamGymNoopScene:
 	end

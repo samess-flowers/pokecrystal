@@ -10,7 +10,20 @@
 MahoganyGym_MapScripts:
 	def_scene_scripts
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetMahoganyGymTrainersCallback
+
+ResetMahoganyGymTrainersCallback:
+	checkevent EVENT_BEAT_PRYCE
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	clearevent EVENT_BEAT_SKIER_ROXANNE
+	clearevent EVENT_BEAT_SKIER_CLARISSA
+	clearevent EVENT_BEAT_BOARDER_RONALD
+	clearevent EVENT_BEAT_BOARDER_BRAD
+	clearevent EVENT_BEAT_BOARDER_DOUGLAS
+	endcallback
 
 MahoganyGymPryceScript:
 	faceplayer

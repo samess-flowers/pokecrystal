@@ -12,7 +12,19 @@ EcruteakGym_MapScripts:
 	scene_script EcruteakGymForcedToLeaveScene, SCENE_ECRUTEAKGYM_FORCED_TO_LEAVE
 	scene_script EcruteakGymNoopScene,          SCENE_ECRUTEAKGYM_NOOP
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetEcruteakGymTrainersCallback
+
+ResetEcruteakGymTrainersCallback:
+	checkevent EVENT_BEAT_MORTY
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	clearevent EVENT_BEAT_SAGE_JEFFREY
+	clearevent EVENT_BEAT_SAGE_PING
+	clearevent EVENT_BEAT_MEDIUM_MARTHA
+	clearevent EVENT_BEAT_MEDIUM_GRACE
+	endcallback
 
 EcruteakGymForcedToLeaveScene:
 	sdefer EcruteakGymClosed

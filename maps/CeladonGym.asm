@@ -10,6 +10,18 @@ CeladonGym_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+    callback MAPCALLBACK_NEWMAP, ResetCeladonGymTrainersCallback
+
+ResetCeladonGymTrainersCallback:
+	checkevent EVENT_BEAT_ERIKA
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	clearevent EVENT_BEAT_LASS_MICHELLE
+	clearevent EVENT_BEAT_PICNICKER_TANYA
+	clearevent EVENT_BEAT_BEAUTY_JULIA
+	clearevent EVENT_BEAT_TWINS_JO_AND_ZOE
+	endcallback
 
 CeladonGymErikaScript:
 	faceplayer

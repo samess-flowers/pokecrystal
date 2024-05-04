@@ -5,7 +5,16 @@
 ViridianGym_MapScripts:
 	def_scene_scripts
 
-	def_callbacks
+	def_callbacks	
+    callback MAPCALLBACK_NEWMAP, ResetViridianGymTrainersCallback
+
+ResetViridianGymTrainersCallback:
+	checkevent EVENT_BEAT_BLUE
+	iffalse .ResetTrainers
+	endcallback
+.ResetTrainers
+	; for real how are there three gyms with no trainers
+	endcallback
 
 ViridianGymBlueScript:
 	faceplayer

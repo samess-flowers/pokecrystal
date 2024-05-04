@@ -425,57 +425,57 @@ JohtoGrassWildMons:
 	def_grass_wildmons UNION_CAVE_1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	db 9, GEODUDE
+	db 10, SANDSHREW
+	db 8, ZUBAT
+	db 10, RATTATA
+	db 9, ZUBAT
+	db 11, ONIX
+	db 12, ONIX
 	; day
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	db 10, GEODUDE
+	db 9, SANDSHREW
+	db 9, ZUBAT
+	db 11, RATTATA
+	db 10, ZUBAT
+	db 11, ONIX
+	db 12, ONIX
 	; nite
-	db 6, GEODUDE
-	db 6, RATTATA
-	db 5, WOOPER
-	db 4, RATTATA
-	db 7, ZUBAT
-	db 6, ONIX
-	db 6, ONIX
+	db 11, GEODUDE
+	db 8, RATTATA
+	db 10, WOOPER
+	db 10, RATTATA
+	db 11, ZUBAT
+	db 12, ONIX
+	db 14, ONIX
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
-	db 8, ONIX
-	db 6, RATTATA
-	db 8, RATTATA
-	db 8, RATTATA
+	db 12, GEODUDE
+	db 13, ZUBAT
+	db 11, ZUBAT
+	db 12, ONIX
+	db 12, RATTATA
+	db 13, RATTATA
+	db 14, RATTATA
 	; day
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
-	db 8, ONIX
-	db 6, RATTATA
-	db 8, RATTATA
-	db 8, RATTATA
+	db 14, GEODUDE
+	db 12, ZUBAT
+	db 11, ZUBAT
+	db 14, ONIX
+	db 11, RATTATA
+	db 12, RATTATA
+	db 13, RATTATA
 	; nite
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, WOOPER
-	db 8, ONIX
-	db 6, RATTATA
-	db 8, RATTATA
-	db 8, RATTATA
+	db 13, GEODUDE
+	db 12, ZUBAT
+	db 12, WOOPER
+	db 13, ONIX
+	db 11, RATTATA
+	db 12, RATTATA
+	db 14, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F

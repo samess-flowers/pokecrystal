@@ -1349,29 +1349,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons ROUTE_33
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, RATTATA
-	db 6, SPEAROW
-	db 6, GEODUDE
-	db 6, HOPPIP
-	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 9, RATTATA
+	db 12, SPEAROW
+	db 11, GEODUDE
+	db 9, HOPPIP
+	db 10, EKANS
+	db 10, HOPPIP
+	db 12, HOPPIP
 	; day
-	db 6, RATTATA
-	db 6, SPEAROW
-	db 6, GEODUDE
-	db 6, HOPPIP
-	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 10, RATTATA
+	db 11, SPEAROW
+	db 12, GEODUDE
+	db 10, HOPPIP
+	db 11, EKANS
+	db 9, SANDSHREW
+	db 11, SANDSHREW
 	; nite
-	db 6, RATTATA
-	db 6, ZUBAT
-	db 6, GEODUDE
-	db 6, ZUBAT
-	db 7, RATTATA
-	db 7, RATTATA
-	db 7, RATTATA
+	db 11, RATTATA
+	db 9, ZUBAT
+	db 10, GEODUDE
+	db 12, EKANS
+	db 10, MURKROW
+	db 13, MURKROW
+	db 13, MURKROW
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_34

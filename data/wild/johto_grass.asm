@@ -509,29 +509,29 @@ JohtoGrassWildMons:
 	def_grass_wildmons SLOWPOKE_WELL_B1F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 10, ZUBAT
+	db 11, SLOWPOKE
+	db 12, SLOWPOKE
+	db 11, ZUBAT
+	db 14, SLOWPOKE
+	db 12, ZUBAT
+	db 14, ZUBAT
 	; day
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 10, ZUBAT
+	db 11, SLOWPOKE
+	db 12, SLOWPOKE
+	db 11, ZUBAT
+	db 14, SLOWPOKE
+	db 12, ZUBAT
+	db 14, ZUBAT
 	; nite
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 10, ZUBAT
+	db 11, SLOWPOKE
+	db 12, SLOWPOKE
+	db 11, ZUBAT
+	db 14, SLOWPOKE
+	db 12, ZUBAT
+	db 14, ZUBAT
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B2F

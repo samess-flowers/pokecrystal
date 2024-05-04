@@ -1249,15 +1249,18 @@ PokemaniacGroup:
 
 GruntMGroup:
 	; GRUNTM (1)
+	; SLOWPOKE WELL BOSS
 	db "GRUNT@", TRAINERTYPE_NORMAL
 	db 14, KOFFING
+	db 14, GRIMER
+	db 16, NIDORINO
 	db -1 ; end
 
 	; GRUNTM (2)
+	; SLOWPOKE WELL
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db  9, ZUBAT
-	db  9, ZUBAT
+	db  15, MEOWTH
+	db  14, ZUBAT
 	db -1 ; end
 
 	; GRUNTM (3)
@@ -1421,9 +1424,10 @@ GruntMGroup:
 	db -1 ; end
 
 	; GRUNTM (29)
+	; SLOWPOKE WELL
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, RATTATA
-	db  9, RATTATA
+	db  12, RATTATA
+	db  14, EKANS
 	db -1 ; end
 
 	; GRUNTM (30)
@@ -3481,9 +3485,9 @@ OfficerGroup:
 
 GruntFGroup:
 	; GRUNTF (1)
+	; SLOWPOKE WELL
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db  9, ZUBAT
-	db 11, EKANS
+	db  16, NIDORINA
 	db -1 ; end
 
 	; GRUNTF (2)

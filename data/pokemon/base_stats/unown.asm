@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm
+	tmhm TOXIC, ZAP_CANNON, HIDDEN_POWER, PROTECT, PSYCHIC_M, SHADOW_BALL, DOUBLE_TEAM, SWIFT, FLASH
 	; end

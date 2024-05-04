@@ -2726,7 +2726,12 @@ MisdreavusEvosAttacks:
 
 UnownEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, HIDDEN_POWER
+	db 1,  HIDDEN_POWER
+	db 10, PSYWAVE
+	db 20, TELEPORT
+	db 30, SWIFT
+	db 40, FUTURE_SIGHT
+	db 50, PAIN_SPLIT
 	db 0 ; no more level-up moves
 
 WobbuffetEvosAttacks:

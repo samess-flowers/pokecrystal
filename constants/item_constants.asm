@@ -269,11 +269,12 @@ DEF TM01 EQU const_value
 	add_tm FIRE_PUNCH   ; f0
 	add_tm FURY_CUTTER  ; f1
 	add_tm NIGHTMARE    ; f2
+	add_tm FALSE_SWIPE  ; f3
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm
 ; Defines three constants:
-; - HM_\1: the item id, starting at $f3
+; - HM_\1: the item id, starting at $f4
 ; - \1_TMNUM: the learnable TM/HM flag, starting at 51
 ; - HM##_MOVE: alias for the move id, equal to the value of \1
 	const HM_\1
@@ -283,13 +284,13 @@ MACRO add_hm
 ENDM
 
 DEF HM01 EQU const_value
-	add_hm CUT          ; f3
-	add_hm FLY          ; f4
-	add_hm SURF         ; f5
-	add_hm STRENGTH     ; f6
-	add_hm FLASH        ; f7
-	add_hm WHIRLPOOL    ; f8
-	add_hm WATERFALL    ; f9
+	add_hm CUT          ; f4
+	add_hm FLY          ; f5
+	add_hm SURF         ; f6
+	add_hm STRENGTH     ; f7
+	add_hm FLASH        ; f8
+	add_hm WHIRLPOOL    ; f9
+	add_hm WATERFALL    ; f10
 DEF NUM_HMS EQU __tmhm_value__ - NUM_TMS - 1
 
 MACRO add_mt

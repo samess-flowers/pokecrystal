@@ -2873,13 +2873,17 @@ ScizorEvosAttacks:
 
 ShuckleEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, CONSTRICT
+	db 1, WRAP
 	db 1, WITHDRAW
-	db 9, WRAP
-	db 14, ENCORE
-	db 23, SAFEGUARD
-	db 28, BIDE
-	db 37, REST
+	db 1, BIDE
+	db 5, ENCORE
+	db 12, LEECH_LIFE
+	db 16, SAFEGUARD
+	db 23, ROCK_THROW
+	db 28, REST
+	db 37, ROCK_SLIDE
+	db 41, SPIKES
+	db 55, SELFDESTRUCT
 	db 0 ; no more level-up moves
 
 HeracrossEvosAttacks:
@@ -2889,6 +2893,7 @@ HeracrossEvosAttacks:
 	db 6, HORN_ATTACK
 	db 12, ENDURE
 	db 19, FURY_ATTACK
+	db 22, KARATE_CHOP
 	db 27, COUNTER
 	db 35, TAKE_DOWN
 	db 44, REVERSAL

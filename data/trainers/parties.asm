@@ -355,14 +355,16 @@ YoungsterGroup:
 	db -1 ; end
 
 	; YOUNGSTER (3)
+	; ROUTE 32
 	db "ALBERT@", TRAINERTYPE_NORMAL
-	db  6, RATTATA
-	db  8, ZUBAT
+	db  11, RATTATA
+	db  12, ZUBAT
 	db -1 ; end
 
 	; YOUNGSTER (4)
+	; ROUTE 32
 	db "GORDON@", TRAINERTYPE_NORMAL
-	db 10, WOOPER
+	db 14, WOOPER
 	db -1 ; end
 
 	; YOUNGSTER (5)
@@ -660,10 +662,11 @@ BirdKeeperGroup:
 	db -1 ; end
 
 	; BIRD_KEEPER (13)
+	; ROUTE 32
 	db "PETER@", TRAINERTYPE_NORMAL
-	db  6, PIDGEY
-	db  6, PIDGEY
-	db  8, SPEAROW
+	db 12, PIDGEY
+	db 13, HOOTHOOT
+	db 15, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (14)
@@ -1641,16 +1644,20 @@ BugCatcherGroup:
 
 FisherGroup:
 	; FISHER (1)
+	; ROUTE 32
 	db "JUSTIN@", TRAINERTYPE_NORMAL
-	db  5, MAGIKARP
-	db  5, MAGIKARP
-	db 15, MAGIKARP
-	db  5, MAGIKARP
+	db  9, MAGIKARP
+	db 11, MAGIKARP
+	db 13, MAGIKARP
+	db 16, MAGIKARP
+	db 17, MAGIKARP
+	db 19, MAGIKARP
 	db -1 ; end
 
 	; FISHER (2)
+	; ROUTE 32
 	db "RALPH@", TRAINERTYPE_NORMAL
-	db 10, GOLDEEN
+	db 15, QWILFISH
 	db -1 ; end
 
 	; FISHER (3)
@@ -1666,9 +1673,10 @@ FisherGroup:
 	db -1 ; end
 
 	; FISHER (5)
+	; ROUTE 32
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, POLIWAG
-	db  8, POLIWAG
+	db 12, POLIWAG
+	db 12, TENTACOOL
 	db -1 ; end
 
 	; FISHER (6)
@@ -2798,8 +2806,9 @@ PsychicGroup:
 
 PicnickerGroup:
 	; PICNICKER (1)
+	; ROUTE 32
 	db "LIZ@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_F
+	db  14, NIDORAN_F
 	db -1 ; end
 
 	; PICNICKER (2)
@@ -2854,12 +2863,14 @@ PicnickerGroup:
 	db -1 ; end
 
 	; PICNICKER (11)
+	; ROUTE 32 ECRUTEAK REMATCH
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 15, WEEPINBELL
 	db 15, NIDORINA
 	db -1 ; end
 
 	; PICNICKER (12)
+	; ROUTE 32 MAHOGANY TOWN REMATCH
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 19, WEEPINBELL
 	db 19, NIDORINO
@@ -2919,6 +2930,7 @@ PicnickerGroup:
 	db -1 ; end
 
 	; PICNICKER (22)
+	; ROUTE 32 RADIO TOWER REMATCH
 	db "LIZ@", TRAINERTYPE_NORMAL
 	db 24, WEEPINBELL
 	db 26, NIDORINO
@@ -2926,6 +2938,7 @@ PicnickerGroup:
 	db -1 ; end
 
 	; PICNICKER (23)
+	; ROUTE 32 CHAMPION REMATCH
 	db "LIZ@", TRAINERTYPE_MOVES
 	db 30, WEEPINBELL, SLEEP_POWDER, POISONPOWDER, STUN_SPORE, SLUDGE_BOMB
 	db 32, NIDOKING,   EARTHQUAKE, DOUBLE_KICK, POISON_STING, IRON_TAIL
@@ -2953,8 +2966,9 @@ PicnickerGroup:
 
 CamperGroup:
 	; CAMPER (1)
+	; ROUTE 32
 	db "ROLAND@", TRAINERTYPE_NORMAL
-	db  9, NIDORAN_M
+	db  14, NIDORAN_M
 	db -1 ; end
 
 	; CAMPER (2)

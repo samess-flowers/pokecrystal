@@ -409,6 +409,7 @@ EeveeEggMoves:
 
 OmanyteEggMoves:
 	db BUBBLEBEAM
+	db SPIKES
 	db AURORA_BEAM
 	db SLAM
 	db SUPERSONIC
@@ -722,6 +723,7 @@ RemoraidEggMoves:
 
 DelibirdEggMoves:
 	db AURORA_BEAM
+	db SPIKES
 	db QUICK_ATTACK
 	db FUTURE_SIGHT
 	db SPLASH

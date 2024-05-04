@@ -270,6 +270,7 @@ DEF TM01 EQU const_value
 	add_tm FURY_CUTTER  ; f1
 	add_tm NIGHTMARE    ; f2
 	add_tm FALSE_SWIPE  ; f3
+	add_tm SPIKES		; f4
 DEF NUM_TMS EQU __tmhm_value__ - 1
 
 MACRO add_hm
@@ -284,13 +285,13 @@ MACRO add_hm
 ENDM
 
 DEF HM01 EQU const_value
-	add_hm CUT          ; f4
-	add_hm FLY          ; f5
-	add_hm SURF         ; f6
-	add_hm STRENGTH     ; f7
-	add_hm FLASH        ; f8
-	add_hm WHIRLPOOL    ; f9
-	add_hm WATERFALL    ; f10
+	add_hm CUT          ; f
+	add_hm FLY          ; f
+	add_hm SURF         ; f
+	add_hm STRENGTH     ; f
+	add_hm FLASH        ; f
+	add_hm WHIRLPOOL    ; f
+	add_hm WATERFALL    ; fb
 DEF NUM_HMS EQU __tmhm_value__ - NUM_TMS - 1
 
 MACRO add_mt

@@ -3063,6 +3063,7 @@ SkarmoryEvosAttacks:
 	db 13, SAND_ATTACK
 	db 19, SWIFT
 	db 25, AGILITY
+	db 32, SPIKES
 	db 37, FURY_ATTACK
 	db 49, STEEL_WING
 	db 0 ; no more level-up moves

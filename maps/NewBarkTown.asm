@@ -102,7 +102,35 @@ NewBarkTownTeacherScript:
 	end
 
 NewBarkTownFisherScript:
+	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
+	iftrue .NewBarkFisherGiveFalseSwipe
 	jumptextfaceplayer Text_ElmDiscoveredNewMon
+
+.NewBarkFisherGiveFalseSwipe
+	faceplayer
+	opentext
+	checkevent EVENT_GOT_TM51_FALSE_SWIPE
+	iftrue .BestOfLuck
+	writetext Text_FirstMon
+	waitbutton
+	verbosegiveitem TM_FALSE_SWIPE
+	iffalse .NoRoomForFalseSwipe
+	writetext Text_FalseSwipe
+	setevent EVENT_GOT_TM51_FALSE_SWIPE
+	waitbutton
+	closetext
+	end
+
+.BestOfLuck:
+	writetext Text_BestOfLuck
+	waitbutton
+	closetext
+	end
+.NoRoomForFalseSwipe:
+	writetext Text_NoRoomForFalseSwipe
+	waitbutton
+	closetext
+	end
 
 NewBarkTownRivalScript:
 	opentext
@@ -244,6 +272,40 @@ Text_ElmDiscoveredNewMon:
 	para "I hear PROF.ELM"
 	line "discovered some"
 	cont "new #MON."
+	done
+
+Text_FirstMon:
+	text "So you got your"
+	line "first #MON?"
+	cont "Congrats!"
+
+	para "I've got a TM for"
+	line "you!"
+
+	done
+
+Text_FalseSwipe:
+	text "It's FALSE SWIPE!"
+	line "It damages #MON"
+	cont "without making"
+	cont "them faint!"
+
+	para "It's great for"
+	line "catching #MON!"
+	done
+
+Text_NoRoomForFalseSwipe:
+	text "Come back when"
+	line "you have more"
+	cont "BAG space!"
+	done
+
+Text_BestOfLuck:
+	text "Best of luck,"
+	line "<PLAYER>!"
+
+	para "Everyone here is"
+	line "rooting for you!"
 	done
 
 NewBarkTownRivalText1:

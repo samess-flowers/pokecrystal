@@ -815,7 +815,7 @@ PoliwagEvosAttacks:
 
 PoliwhirlEvosAttacks:
 	db EVOLVE_ITEM, WATER_STONE, POLIWRATH
-	db EVOLVE_HAPPINESS, TR_ANYTIME, POLITOED
+	db EVOLVE_ITEM, KINGS_ROCK, POLITOED
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, HYPNOSIS
@@ -1288,7 +1288,7 @@ GengarEvosAttacks:
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, STEELIX
+	db EVOLVE_ITEM, METAL_COAT, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SCREECH
@@ -1598,7 +1598,7 @@ HorseaEvosAttacks:
 	db 0 ; no more level-up moves
 
 SeadraEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, KINGDRA
+	db EVOLVE_ITEM, DRAGON_SCALE, KINGDRA
 	db 0 ; no more evolutions
 	db 1, BUBBLE
 	db 1, SMOKESCREEN
@@ -1681,7 +1681,7 @@ MrMimeEvosAttacks:
 	db 0 ; no more level-up moves
 
 ScytherEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, SCIZOR
+	db EVOLVE_ITEM, METAL_COAT, SCIZOR
 	db 0 ; no more evolutions
 	db 1, QUICK_ATTACK
 	db 1, LEER
@@ -1866,7 +1866,7 @@ FlareonEvosAttacks:
 	db 0 ; no more level-up moves
 
 PorygonEvosAttacks:
-	db EVOLVE_HAPPINESS, TR_ANYTIME, PORYGON2
+	db EVOLVE_ITEM, UP_GRADE, PORYGON2
 	db 0 ; no more evolutions
 	db 1, CONVERSION2
 	db 1, TACKLE
